@@ -2,5 +2,7 @@
 
 ## Table of Content :
 
-- Files
+- [Files](files)
+  - [NSgtd](files/NSgtd)
+    - [Monster.dat](files/NSgtd/monster.dat)
 - Algorithms
