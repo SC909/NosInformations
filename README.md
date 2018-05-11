@@ -1,10 +1,13 @@
 # NosInformations
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website&style=flat-square)](https://nossharp.github.io/NosInformations/)
+
+
 I decided to open this repository to let people contribute with their knowledge about Nostale.
 
 It's been made to grow the nostale modding, which is actually not that developed.
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 
 
 ## How to contribute
