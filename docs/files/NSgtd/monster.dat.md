@@ -48,7 +48,7 @@ FileElement details
 	PREATT	{monsterIsHostile:bool}	0	{monsterNoticeRange:byte}	{monsterSpeed:byte}	{monsterRespawnTime:int32(milliseconds)}
 	SETTING	0	0	-1	0	0	0
 	ETC	{monsterETCVAL1}	1	0	0	0	0	0	0
-	PETINFO	1	10	0	50
+	PETINFO	{tries}	{r_time}	{remove}	{time}
 	EFF	200	0	0
 	ZSKILL	0	1	3	2	12	0	0
 	WINFO	0	0	0
@@ -76,4 +76,16 @@ boss-ish = monsterETCVAL1 & 0x‭40000000‬
 cantTargetInfo = monsterETCVAL1 & 0x‭80000000‬
 ```
 
-Last Update 5/11/2018
+
++### PETINFO
++`Needs to be checked with other entities, it only works on collection entities (water well, ice flower, smelling grass, wheat)`
++```
++item_id = item required
++amount = amount of required item
++tries = amount of tries, successful and unsuccessful
++r_time = time it takes to reset the number of tries
++remove = amount of required items to remove
++f_time = time it takes to collect
++```
+
+Last Update 5/19/2018
