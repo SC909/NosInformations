@@ -77,15 +77,15 @@ cantTargetInfo = monsterETCVAL1 & 0x‭80000000‬
 ```
 
 
-+### PETINFO
-+`Needs to be checked with other entities, it only works on collection entities (water well, ice flower, smelling grass, wheat)`
-+```
-+item_id = item required
-+amount = amount of required item
-+tries = amount of tries, successful and unsuccessful
-+r_time = time it takes to reset the number of tries
-+remove = amount of required items to remove
-+f_time = time it takes to collect
-+```
+### PETINFO (thanks to SC909)
+`Needs to be checked with other entities, it only works on collection entities (water well, ice flower, smelling grass, wheat)`
+```
+item_id = item required
+amount = amount of required item
+tries = amount of tries, successful and unsuccessful
+r_time = time it takes to reset the number of tries
+remove = amount of required items to remove
+f_time = time it takes to collect
+```
 
 Last Update 5/19/2018
